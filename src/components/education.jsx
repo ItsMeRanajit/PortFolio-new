@@ -19,10 +19,10 @@ const education = () => {
         <div className="flex flex-col ">
           <h1 className="text-2xl font-bold text-white/80 font-fontLogo mt-4"> Computer Science Engineering Student | Full-Stack Developer</h1>
           <div className="mt-2 text-white font-fontLogo3 tracking-widest">
-            Hello! I'm Tadano, a final-year Computer Science Engineering student from Hooghly Engineering and Technology College (Batch '25). With a strong foundation in front-end technologies like
-            React and Tailwind CSS, paired with back-end expertise in Node.js, Express, and frameworks like Next.js, I specialize in creating seamless and responsive web applications. I’m fluent in
-            multiple programming languages, including Java, JavaScript, Python, and C, and have honed my problem-solving skills through diverse projects and challenges. Passionate about building
-            efficient, scalable solutions and staying at the forefront of modern tech.
+            Hello! I&apos;m Tadano, a final-year Computer Science Engineering student from Hooghly Engineering and Technology College (Batch &apos;25). With a strong foundation in front-end
+            technologies like React and Tailwind CSS, paired with back-end expertise in Node.js, Express, and frameworks like Next.js, I specialize in creating seamless and responsive web
+            applications. I’m fluent in multiple programming languages, including Java, JavaScript, Python, and C, and have honed my problem-solving skills through diverse projects and challenges.
+            Passionate about building efficient, scalable solutions and staying at the forefront of modern tech.
           </div>
           <button className="btn-custom w-64 ">
             <a href="/resume.pdf" download>

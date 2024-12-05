@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 const footer = () => {
   return (

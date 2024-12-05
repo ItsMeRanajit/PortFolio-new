@@ -4,7 +4,6 @@ import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { RiNextjsFill } from "react-icons/ri";
-import { label } from "motion/react-client";
 
 const skillIcons = [
   { icon: <FaReact size={100} />, label: "React" },

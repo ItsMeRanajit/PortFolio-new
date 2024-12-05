@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import "../app/app.css";
-import { div } from "motion/react-client";
 
 const Home = () => {
   const [xVal, setXVal] = useState(0);
@@ -94,7 +93,7 @@ const Home = () => {
       <div className="animation_layer parallax" id="jungle3" data-speedx="0.03" data-speedy="0.025"></div>
       <div className="z-[8] fixed top-[30%] md:top-[20%] left-[50%] transform translate-x-[-50%] translate-y-[-20%] text-center uppercase text-white font-fontLogo w-full">
         <div className="text-xl lg:text-4xl md:text-2xl" id="hello">
-          Hello, I'm
+          Hello, I&apos;m
         </div>
         <div className="font-extrabold lg:text-9xl text-7xl" id="name">
           Ranajit Das

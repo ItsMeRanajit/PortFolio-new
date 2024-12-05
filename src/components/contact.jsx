@@ -29,7 +29,7 @@ const contact = () => {
       </div>
 
       <div className="bg-white/20 p-6 rounded-xl max-w-[550px] font-fontLogo3 tracking-wider">
-        <h2 className="text-5xl font-bold text-orange-400 mb-4 font-fontLogo">Let's connect</h2>
+        <h2 className="text-5xl font-bold text-orange-400 mb-4 font-fontLogo">Let&apos;s connect</h2>
         <p className="text-white/70 mb-6">Send me a message</p>
 
         <form action="https://getform.io/f/bjjjywkb" method="POST" className="space-y-4">
