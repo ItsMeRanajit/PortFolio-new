@@ -1,0 +1,75 @@
+.animation {
+  height: 100vh;
+}
+.animation_layer {
+  height: 120%;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 96%;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+}
+.animation_layer.parallax {
+  position: absolute;
+  left: 0;
+  transition: 0.45s cubic-bezier(0.2, 0.49, 0.32, 0.99);
+}
+
+#artback {
+  background-image: url(./images/background.webp);
+}
+
+#mountain {
+  background-image: url(./images/mountains.webp);
+  scale: 1.36;
+}
+
+#logoland {
+  background-image: url(./images/logo_land.webp);
+  scale: 1.16;
+}
+
+#jungle1 {
+  background-image: url(./images/jungle1.webp);
+  scale: 1.11;
+}
+
+#jungle2 {
+  background-image: url(./images/jungle2.webp);
+  scale: 1.051;
+}
+
+#jungle3 {
+  background-image: url(./images/jungle3.webp);
+  scale: 1.051;
+}
+
+#jungle4 {
+  background-image: url(./images/jungle4.webp);
+  z-index: 11;
+  scale: 1.051;
+}
+
+#jungle5 {
+  background-image: url(./images/jungle5.webp);
+  z-index: 12;
+  scale: 1.027;
+  right: 10;
+}
+
+#manonmountain {
+  background-image: url(./images/man_on_mountain.webp);
+  z-index: 13;
+  scale: 1.065;
+}
