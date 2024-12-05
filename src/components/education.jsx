@@ -24,11 +24,9 @@ const education = () => {
             applications. I’m fluent in multiple programming languages, including Java, JavaScript, Python, and C, and have honed my problem-solving skills through diverse projects and challenges.
             Passionate about building efficient, scalable solutions and staying at the forefront of modern tech.
           </div>
-          <button className="btn-custom w-64 ">
-            <a href="/resume.pdf" download>
-              Get my Resume
-            </a>
-          </button>
+          <a href="/resume.pdf" download className="">
+            <button className="btn-custom w-64">Get my Resume</button>
+          </a>
         </div>
       </div>
 
