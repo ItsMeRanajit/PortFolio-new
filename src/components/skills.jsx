@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact, FaJsSquare, FaJava, FaPython, FaNodeJs, FaLinux, FaGithub } from "react-icons/fa";
+import { FaReact, FaJsSquare, FaJava, FaPython, FaNodeJs, FaLinux, FaGitAlt } from "react-icons/fa";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
@@ -12,7 +12,7 @@ const skillIcons = [
   { icon: <FaPython size={100} />, label: "Python" },
   { icon: <FaNodeJs size={100} />, label: "Node.js" },
   { icon: <FaLinux size={100} />, label: "Linux" },
-  { icon: <FaGithub size={100} />, label: "GitHub" },
+  { icon: <FaGitAlt size={100} />, label: "Git" },
   { icon: <BiLogoTypescript size={100} />, label: "TypeScript" },
   { icon: <BiLogoTailwindCss size={100} />, label: "Tailwind CSS" },
   { icon: <SiMongodb size={100} />, label: "MongoDB" },
