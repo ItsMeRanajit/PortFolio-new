@@ -6,7 +6,7 @@ import phone from "../app/images/phone.png";
 
 const contact = () => {
   return (
-    <div className="max-w-full md:max-w-[70%] mx-auto justify-between items-center flex flex-col lg:flex-row text-white/70 p-8 font-fontLogo " id="contact">
+    <div className="max-w-full md:max-w-[80%] mx-auto justify-between items-center flex flex-col xl:flex-row text-white/70 p-8 font-fontLogo " id="contact">
       <div className="flex justify-center items-center mb-10">
         <ul className="space-y-4 ">
           <li className="flex items-center">
