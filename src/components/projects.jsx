@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import snipx from "../app/images/snipx.png";
 import huffman from "../app/images/project.jpg";
+import tictactoe from "../app/images/tictactoe.png";
 import sort from "../app/images/sorting.png";
 
 const projectArr = [
@@ -30,6 +31,14 @@ const projectArr = [
     link: "",
     git: "https://github.com/ItsMeRanajit/Text-compressor-using-Huffman-Coding.git",
     src: huffman,
+  },
+  {
+    title: "Real Time Tic-Tac-Toe game",
+    desc: "A real-time multiplayer Tic-Tac-Toe game with Node.js and Socket.IO, featuring both online and offline PvP modes.",
+    devStack: ["React.js", "Node.js", "WebSockets", "Socket.IO"],
+    link: "https://realtime-tic-tac-toe.vercel.app/",
+    git: "https://github.com/ItsMeRanajit/Realtime-Tic-Tac-Toe.git",
+    src: tictactoe,
   },
 ];
 
