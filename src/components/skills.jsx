@@ -34,6 +34,7 @@ const skills = () => {
               <p className="mt-2 text-lg font-fontLogo">{skill.label}</p>
             </div>
           ))}
+          <div className="self-end text-2xl font-fontLogo">and more...</div>
         </div>
       </div>
     </div>

@@ -28,14 +28,14 @@ const projectArr = [
     title: "Text Encoder Decoder with Huffman Coding",
     desc: "Java-based Huffman coding compressor for efficient text data reduction.",
     devStack: ["Java", "Java GUI"],
-    link: "",
+    link: null,
     git: "https://github.com/ItsMeRanajit/Text-compressor-using-Huffman-Coding.git",
     src: huffman,
   },
   {
     title: "Real Time Tic-Tac-Toe game",
     desc: "A real-time multiplayer Tic-Tac-Toe game with Node.js and Socket.IO, featuring both online and offline PvP modes.",
-    devStack: ["React.js", "Node.js", "WebSockets", "Socket.IO"],
+    devStack: ["React", "Node", "WebSockets", "Socket.IO"],
     link: "https://realtime-tic-tac-toe.vercel.app/",
     git: "https://github.com/ItsMeRanajit/Realtime-Tic-Tac-Toe.git",
     src: tictactoe,
@@ -70,15 +70,15 @@ const projects = () => {
                 <div className="w-64 h-[1px] bg-gray-400"></div>
                 <div className="flex gap-6">
                   {/* Project Link Button */}
-                  <a
-                    href={project.link || "#"}
-                    target="_blank"
-                    className={`px-6 py-2 rounded-sm text-white 
-                        ${project.link ? "bg-orange-500 hover:bg-orange-600 focus:ring-2 focus:ring-orange-300" : "bg-gray-300 cursor-not-allowed"}
-                        `}
-                  >
-                    Link
-                  </a>
+                  {project.link ? (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <button className="px-6 py-2 rounded-sm text-white bg-orange-500 hover:bg-orange-600 focus:ring-2 focus:ring-orange-300">Link</button>
+                    </a>
+                  ) : (
+                    <button disabled className="px-6 py-2 rounded-sm text-white bg-gray-300 cursor-not-allowed">
+                      Link
+                    </button>
+                  )}
 
                   {/* GitHub Link */}
                   <a
