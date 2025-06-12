@@ -66,7 +66,7 @@ const NavBar = () => {
         </ul>
       </nav>
 
-      <div className="md:hidden w-full text-center text-xsm md:text-sm font-fontLogo text-orange-900 mt-4">🛈 For a better experience, please switch to a desktop or laptop.</div>
+      <div className="md:hidden w-full text-center text-xs md:text-sm font-fontLogo text-orange-900 mt-12">🛈 For a better experience, please switch to a desktop or laptop.</div>
       <div onClick={toggleNav} className="md:hidden absolute top-5 right-5 rounded z-30">
         {nav ? <LuCross size={25} className=" rotate-45" /> : <CgMenuCheese size={25} />}
       </div>
