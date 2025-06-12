@@ -81,7 +81,7 @@ const education = () => {
         <div className="w-full  md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-600 to-orange-700 opacity-30 animate-gradient-xy"></div>
 
-          <div className="flex flex-row p-6">
+          <div className="flex flex-row p-6 items-center">
             <Image src={finance} alt="book" className="w-auto h-[130px]" />
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold text-white/80">Technical Skills</h2>
