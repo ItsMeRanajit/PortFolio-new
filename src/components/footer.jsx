@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const footer = () => {
   return (
-    <div className="font-fontLogo px-5 md:px-0 mt-12 text-white/70 max-w-[1000px] container mx-auto border-t border-gray-700 pt-4 flex justify-between items-center mb-16">
+    <div className="font-fontLogo px-5 md:px-0 mt-12 text-white/70 max-w-[1000px] container mx-auto border-t border-gray-700 pt-4 flex justify-between items-center ">
       <h1 className="text-2xl font-bold">
         <span className="text-orange-400">Ranajit</span> Das
       </h1>
